@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+  </head>
+  <body>
+    <header class="header">
+      <button><i class="fa-solid fa-mug-saucer"></i></button>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/blog.html">Blog</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="contact-form">
+        <header>
+          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill="#FFC1B4"
+              d="M34.7,-41.7C45.1,-32.7,53.6,-21.8,61.2,-6.7C68.8,8.5,75.4,27.9,68.2,38.5C61.1,49.1,40.1,50.9,23.6,50.8C7.1,50.8,-5,48.9,-16.2,44.7C-27.3,40.5,-37.6,34.1,-48.3,23.8C-59,13.6,-70.3,-0.4,-69.1,-13.1C-67.9,-25.7,-54.3,-37.1,-40.7,-45.6C-27.1,-54.1,-13.6,-59.8,-0.7,-59C12.2,-58.1,24.3,-50.8,34.7,-41.7Z"
+              transform="translate(100 100)"
+            />
+          </svg>
+          <h1>Contact us</h1>
+          <p>
+            Send us the topic with all your information to get in touch a soon
+            as possible
+            <span role="img" aria-label="call headset"
+              ><i class="fa-solid fa-headset"></i
+            ></span>
+          </p>
+        </header>
+        <form>
+          <div class="form-control">
+            <label for="name"
+              ><span role="img" aria-label="card id icon">
+                <i class="fa-solid fa-id-card"></i></span
+              >Name:</label
+            >
+            <input
+              id="name"
+              type="text"
+              placeholder="Enter your full name"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="email"
+              ><span role="img" aria-label="email icon"
+                ><i class="fa-solid fa-envelope"></i></span
+              >Email:</label
+            >
+            <input
+              id="email"
+              type="email"
+              placeholder="Enter your email ad"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="phone"
+              ><span role="img" aria-label="phone icon"
+                ><i class="fa-solid fa-phone"></i></span
+              >Phone:</label
+            >
+            <input
+              id="phone"
+              type="tel"
+              placeholder="Enter your phone"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="topic"
+              ><span role="img" aria-label="phone icon"
+                ><i class="fa-solid fa-lightbulb"></i></span
+              >Topic:</label
+            >
+            <input
+              id="topic"
+              type="text"
+              placeholder="Enter a small subject"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="address"
+              ><span role="img" aria-label="phone icon"
+                ><i class="fa-solid fa-location"></i></span
+              >Address:</label
+            >
+            <textarea name="Address" id="Address" rows="4"></textarea>
+          </div>
+          <button type="submit">
+            <p>
+              <span role="img" aria-label="send icon"
+                ><i class="fa-solid fa-paper-plane"></i></span
+              >Send
+            </p>
+          </button>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <small>&copy; 2025 All rights reserved</small>
+    </footer>
+    <script
+      defer
+      src="https://kit.fontawesome.com/8df9994193.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
