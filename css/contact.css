@@ -6,12 +6,17 @@
   flex-direction: column;
 }
 
+.contact-form header {
+  max-width: 80%;
+}
+
 .contact-form header h1 {
   margin-bottom: 30px;
 }
 
 .contact-form header p {
   margin-bottom: 40px;
+  padding: 0 20px;
 }
 
 .contact-form header svg {
