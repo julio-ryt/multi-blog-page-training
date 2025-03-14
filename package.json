@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "name": "multi-page-blog",
+  "description": "Create a Multi-Page Blog Website Using Semantic HTML & CSS",
+  "author": {
+    "name": "Julio Merlo"
+  },
+  "scripts": {
+    "postcss:watch": "postcss css/styles.css -o dist/style.min.css --watch"
+  },
+  "devDependencies": {
+    "cssnano": "^7.0.6",
+    "postcss": "^8.5.3",
+    "postcss-import": "^16.1.0"
+  }
+}

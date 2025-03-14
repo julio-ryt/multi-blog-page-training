@@ -5,23 +5,27 @@
   justify-content: center;
   flex-direction: column;
 }
+
 .contact-form header h1 {
   margin-bottom: 30px;
 }
+
 .contact-form header p {
   margin-bottom: 40px;
 }
+
 .contact-form header svg {
   position: absolute;
   top: 0;
   z-index: -1;
   left: 0;
-  margin-left: -60px;
-  margin-top: -100px;
+  height: 100%;
 }
+
 .contact-form header {
   z-index: 1;
 }
+
 .contact-form form {
   z-index: 2;
   border-radius: 8px;
@@ -39,26 +43,33 @@
     "address address"
     "send send";
 }
+
 .form-control {
   display: flex;
   align-items: center;
   gap: 15px;
 }
+
 .form-control:nth-child(1) {
   grid-area: name;
 }
+
 .form-control:nth-child(2) {
   grid-area: email;
 }
+
 .form-control:nth-child(3) {
   grid-area: phone;
 }
+
 .form-control:nth-child(4) {
   grid-area: topic;
 }
+
 .form-control:nth-child(5) {
   grid-area: address;
 }
+
 .contact-form button {
   grid-area: send;
   border: none;
@@ -66,27 +77,33 @@
   height: 60px;
   background-color: #034c53;
 }
+
 .contact-form button:hover {
   cursor: pointer;
   background-color: #007074;
 }
+
 .contact-form label {
   text-align: center;
 }
+
 .contact-form button p {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
 }
+
 .contact-form button i,
 .contact-form button p {
   color: #fff;
 }
+
 .form-control span i {
   color: #034c53;
   margin-right: 10px;
 }
+
 .form-control input,
 .form-control textarea {
   border-radius: 4px;
@@ -99,26 +116,33 @@
   .contact-form header svg {
     margin-top: 0;
   }
+
   .contact-form form {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 1fr);
     grid-template-areas: initial;
   }
+
   .form-control:nth-child(1) {
     grid-area: initial;
   }
+
   .form-control:nth-child(2) {
     grid-area: initial;
   }
+
   .form-control:nth-child(3) {
     grid-area: initial;
   }
+
   .form-control:nth-child(4) {
     grid-area: initial;
   }
+
   .form-control:nth-child(5) {
     grid-area: initial;
   }
+
   .contact-form button {
     grid-area: initial;
   }
