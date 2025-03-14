@@ -43,10 +43,10 @@
   grid-template-rows: repeat(4, 1fr);
   gap: 30px;
   grid-template-areas:
-    "name email"
-    "phone topic"
-    "address address"
-    "send send";
+    'name email'
+    'phone topic'
+    'address address'
+    'send send';
 }
 
 .form-control {
